@@ -1,0 +1,28 @@
+{
+    "name": "spartaques/laravelpinba",
+    "description": "Pinba Laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Andriy Bashuk",
+            "email": "96andlgrac@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "ext-pinba": "*",
+        "laravel/laravel": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spartaques\\LaravelPinba\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    }
+}
