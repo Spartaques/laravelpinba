@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Spartaques\Laravelpinba;
+namespace Spartaques\LaravelPinba;
 
 
 use Closure;

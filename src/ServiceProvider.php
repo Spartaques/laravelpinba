@@ -1,6 +1,6 @@
 <?php
 
-namespace Spartaques\Laravelpinba;
+namespace Spartaques\LaravelPinba;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

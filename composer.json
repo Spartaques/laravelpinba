@@ -9,8 +9,10 @@
             "role": "Developer"
         }
     ],
-    "psr-4": {
-        "Spartaques\\LaravelPinba\\": "src"
+    "autoload": {
+        "psr-4": {
+            "Spartaques\\LaravelPinba\\": "src"
+        }
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
