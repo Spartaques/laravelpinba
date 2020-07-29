@@ -26,5 +26,6 @@
                 "Spartaques\\Laravelpinba\\ServiceProvider"
             ]
         }
-    }
+    },
+    "version": "v0.0.9"
 }
