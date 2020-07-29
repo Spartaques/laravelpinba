@@ -39,15 +39,6 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
             if (ini_get ('pinba.enabled')) {
 
                 pinba_hostname_set(config('app.name'));
-            }
-
-            if (config('pinba.enabled')) {
-
-                    ini_set('pinba.enabled', config('pinba.enabled'));
-
-                if (ini_get('pinba.server') === '') {
-                    ini_set('pinba.server', config('pinba.server'));
-                }
 
                 if(app()->runningInConsole()) {
 
