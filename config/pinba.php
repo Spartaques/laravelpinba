@@ -20,4 +20,6 @@ return [
      |
      */
     'server' => env('pinba.server', '127.0.0.1:30002'),
+
+    'server_name' => env('pinba.server_name', null)
 ];
