@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spartaques\\Laravelpinba\\ServiceProvider"
+                "Spartaques\\LaravelPinba\\ServiceProvider"
             ]
         }
     },
