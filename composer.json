@@ -21,11 +21,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spartaques\\LaravelPinba\\ServiceProvider"
+                "Spartaques\\Laravelpinba\\ServiceProvider"
             ],
             "aliases": {
                 "Debugbar": "Barryvdh\\Debugbar\\Facade"
             }
         }
-    }
+    },
+    "version": "v0.0.4"
 }

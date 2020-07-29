@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Spartaques\LaravelPinba;
+namespace Spartaques\Laravelpinba;
 
 
 class LaravelPinba
