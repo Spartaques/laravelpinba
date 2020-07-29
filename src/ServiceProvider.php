@@ -29,6 +29,10 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function boot()
     {
+        $argv = $_SERVER['argv'];
+
+        $argc = $_SERVER['argc'];
+
         $this->publishes([
          __DIR__ . '/../config/pinba.php' => config_path('pinba.php')
         ]);

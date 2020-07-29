@@ -20,12 +20,4 @@
         "ext-pinba": "*",
         "laravel/laravel": "*"
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Spartaques\\LaravelPinba\\ServiceProvider"
-            ]
-        }
-    },
-    "version": "v1.0.0"
 }
