@@ -24,10 +24,7 @@
         "laravel": {
             "providers": [
                 "Spartaques\\Laravelpinba\\ServiceProvider"
-            ],
-            "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
-            }
+            ]
         }
     }
 }
