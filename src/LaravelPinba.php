@@ -24,9 +24,8 @@ class LaravelPinba
 
         if (extension_loaded('pinba')) {
 
-            $server_name = pathinfo(config('app.url'));
-            if(!empty($server_name['basename'])) {
-                pinba_server_name_set($server_name['basename']);
+            if(!empty(config('pinba.server_name'))) {
+                pinba_server_name_set(config('pinba.server_name'));
             }
 
             $pinbaData = pinba_get_info();
