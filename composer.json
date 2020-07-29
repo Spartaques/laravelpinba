@@ -29,6 +29,5 @@
                 "Debugbar": "Barryvdh\\Debugbar\\Facade"
             }
         }
-    },
-    "version": "v0.0.4"
+    }
 }
