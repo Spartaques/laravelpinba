@@ -8,7 +8,7 @@ use Closure;
 
 class Middleware
 {
-    const UNKNOWN_SCRIPT_NAME = '<unknown>';
+    const UNKNOWN_SCRIPT_NAME = 'unknown';
 
     /**
      * Handle an incoming request.
