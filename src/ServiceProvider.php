@@ -40,6 +40,10 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
                 pinba_hostname_set(config('app.name'));
 
+                if(!empty(config('pinba.server_name'))) {
+                    pinba_server_name_set(config('pinba.server_name'));
+                }
+
                 if(app()->runningInConsole()) {
 
                     $argv = $_SERVER['argv'];
