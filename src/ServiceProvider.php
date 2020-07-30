@@ -50,7 +50,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
                     if($argc > 2) {
                     pinba_script_name_set($argv[0] . ' '.$argv[1]);
                     } else {
-                        pinba_script_name_set($argv[1]);
+                        pinba_script_name_set($argv[0]);
                     }
                 } else {
                     pinba_schema_set('web');
