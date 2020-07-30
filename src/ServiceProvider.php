@@ -51,10 +51,11 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
                     $argc = $_SERVER['argc'];
 
                     pinba_schema_set('console');
-                    if($argc > 2) {
-                    pinba_script_name_set($argv[0] . ' '.$argv[1]);
-                    } else {
-                        pinba_script_name_set($argv[0]);
+
+                    $scriptName = '';
+
+                    foreach ($argv as $arg) {
+                        $scriptName .= $arg. ' ';
                     }
                 } else {
                     pinba_schema_set('web');
