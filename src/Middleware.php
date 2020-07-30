@@ -22,11 +22,7 @@ class Middleware
         $return = $next($request);
 
         if (extension_loaded('pinba')) {
-            if ($request->getPathInfo()) {
-                $script_name = $request->getPathInfo();
-            } else {
-                $script_name = self::UNKNOWN_SCRIPT_NAME;
-            }
+            $script_name = $request->fullUrl();
             pinba_script_name_set($script_name);
         }
 
